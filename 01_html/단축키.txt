@@ -1,0 +1,21 @@
+
+ !				html구조 자동 완성 
+ 태그명 + tab버튼
+ ctrl + c, v  			복사
+ ctrl + shift + k       	행 삭제
+ ctrl + / , alt + shift + a     주석처리
+ ctrl + k -> ctrl + u		주석처리된 부분 주석해제
+
+ alt + 방향키       		코드이동
+ alt + shift + f       		코드정렬 
+ 태그명 + * 원하는 갯수 tab버튼  태그를 여러개       
+
+ ctrl + shift + L		드래그된 단어와 동일한 단어를 모두 수정할 수 있어짐
+ ctrl + D			드래그된 단어와 동일한 단어를 한개씩 선택할 수 있어짐
+ ctrl + alt + 위아래방향키	행을 다중선택하여 여러행을 동시에 수정할 수 있게해줌
+
+ link:css			css 스타일시트 연결
+ tag.클래스이름			클래스명을 가진 태그를 생성해줌
+ tag > tag			부모,자식요소로 태그를 생성해줌
+ tag + tag			각각 태그를 생성해줌
+
