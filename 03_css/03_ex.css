@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+}
+header, footer {
+    text-align: center;
+    background-color: #b8e0fe;
+    padding: 10px;
+    color:#29343b;
+}
+nav {
+    text-align: center;
+    background-color: #daf1ff;
+    padding: 15px;
+}
+h2 {
+    border: #006f00 solid 2px;
+    border-left: #006f00 solid 8px;
+    padding: 10px;
+    margin: 13px 5px;
+}
+.h2_1 {
+    border-color: #f6b489;
+}
+p {
+    color: #006f00;
+    margin: 15px;
+}
