@@ -7,17 +7,35 @@ header, footer {
     padding: 10px;
     color:#29343b;
 }
+header {
+    height: 200px;
+}
 header > div {
     float:left;
 }
-h1 > p {
+#d2 {
     text-align: center;
+    margin: 10px 30px;
 }
 nav {
-    text-align: center;
     background-color: #daf1ff;
-    padding: 15px;
+    padding: 10px;
     clear:both;
+}
+a{
+    display:inline-block;
+    width: 100px;
+    height: 10px;
+    padding: 5px;
+    text-align: center;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color:blue;
+}
+a:hover, a:active{
+    background-color: #b8e0fe;
+    color: blue;
 }
 h2 {
     border: #006f00 solid 2px;

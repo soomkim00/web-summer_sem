@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "type": "msedge",
             "request": "launch",
             "name": "Open 04_ex_201727512.html",
             "file": "c:\\Users\\gkgkg\\GitHub\\web-summer_sem\\04_DOM\\04_ex_201727512.html"
