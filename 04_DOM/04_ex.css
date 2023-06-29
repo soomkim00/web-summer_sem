@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+}
+header, footer {
+    /* text-align: center; */
+    background-color: #b8e0fe;
+    padding: 10px;
+    color:#29343b;
+}
+header > div {
+    float:left;
+}
+h1 > p {
+    text-align: center;
+}
+nav {
+    text-align: center;
+    background-color: #daf1ff;
+    padding: 15px;
+    clear:both;
+}
+h2 {
+    border: #006f00 solid 2px;
+    border-left: #006f00 solid 8px;
+    padding: 10px;
+    margin: 13px 5px;
+}
+.h2_1 {
+    border-color: #f6b489;
+}
+#p1 {
+    color: #006f00;
+    margin: 15px;
+}
+p > span{
+    margin: 0px 10px;
+}

@@ -1,3 +1,6 @@
+body {
+    margin: 0px;
+}
 header {
     text-align: center;
     background-color: #b8e0fe;
@@ -11,7 +14,10 @@ nav {
 }
 section {
     border: #006f00 solid 3px;
-    margin: 15px 10px;
+    margin: 15px 1%;
+    width: 47.5%;
+    height: 120px;
+    float: left;
 }
 h2 {
     background-color: #c1ddd0;
@@ -30,4 +36,20 @@ footer {
     text-align: center;
     background-color: #b8e0fe;
     padding: 10px;
+    clear:both;
+}
+a{
+    display:inline-block;
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color:blue;
+}
+a:hover, a:active{
+    background-color: #b8e0fe;
+    color: blue;
 }
