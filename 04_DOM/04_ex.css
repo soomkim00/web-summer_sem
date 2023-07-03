@@ -10,31 +10,56 @@ header, footer {
 header {
     height: 200px;
 }
+#d1 > img {
+    width :180px;
+    height: 180px;
+}
 header > div {
     float:left;
 }
 #d2 {
     text-align: center;
-    margin: 10px 30px;
+    margin: 0px 30px;
 }
 nav {
     background-color: #daf1ff;
     padding: 10px;
-    clear:both;
+    clear: both;
 }
-a{
+nav > a{
     display:inline-block;
     width: 100px;
-    height: 10px;
+    height: 20px;
     padding: 5px;
+    margin: 0px 15px;
     text-align: center;
+}
+nav > a:link, nav > a:visited {
+    color: #29343b;
+}
+nav > a:hover, nav > a:active {
+    background-color: #b8e0fe;
+}
+section {
+    float: left;
+    box-sizing: border-box;
+    width: 48%;
+    height: 200px;
+    margin: 1%;
+    padding: 1px;
+    border: #006f00 solid 1px;
+}
+#s2, #s4{
+    border: #f6b489 solid 1px;
+}
+footer {
+    clear: both;
 }
 a:link, a:visited {
     text-decoration: none;
     color:blue;
 }
 a:hover, a:active{
-    background-color: #b8e0fe;
     color: blue;
 }
 h2 {
@@ -46,9 +71,12 @@ h2 {
 .h2_1 {
     border-color: #f6b489;
 }
+p > a {
+    margin: 0px 15px;
+}
 #p1 {
     color: #006f00;
-    margin: 15px;
+    margin: 0px 15px;
 }
 p > span{
     margin: 0px 10px;
