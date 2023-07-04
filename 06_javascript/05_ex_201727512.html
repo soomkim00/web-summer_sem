@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="korean">
+  <!--201727512 / 23.07.04 / 5장 응용문제-->
+  <head>
+    <meta charset="UTF-8" />
+    <title>5장 응용문제</title>
+    <link rel="stylesheet" href="05_ex.css" />
+  </head>
+  <body>
+    <form name="05_ex_form" method="get" action="test_ex.php">
+      <div class="c1">당신이 좋아하는 과일을 선택해 보세요.</div>
+      <div class="c2">
+        <p>
+          <label for="txt_name">성명</label><br />
+          <input
+            type="text"
+            name="txt_name"
+            id="txt_name"
+            placeholder="성명 입력"
+          />
+        </p>
+        <p>
+          <label for="txt_password">비밀번호</label><br />
+          <input
+            type="password"
+            name="txt_password"
+            id="txt_password"
+            placeholder="비밀번호 입력"
+          />
+        </p>
+        <p>
+          <label for="r_pr">좋아하는 과일을 선택하세요.</label><br />
+          <span>
+            <input type="radio" name="r_pr" id="r_pr_sb" value="딸기" />
+            <label for="r_pr_sb"
+              ><img src="./img/img1.png" alt="딸기 사진"
+            /></label>
+          </span>
+          <span>
+            <input type="radio" name="r_pr" id="r_pr_bnn" value="바나나" />
+            <label for="r_pr_bnn"
+              ><img src="./img/img2.png" alt="바나나 사진"
+            /></label>
+          </span><br>
+          <span>
+            <input type="radio" name="r_pr" id="r_pr_ap" value="사과" />
+            <label for="r_pr_ap"
+              ><img src="./img/img3.png" alt="사과 사진"
+            /></label>
+          </span>
+          <span>
+            <input type="radio" name="r_pr" id="r_pr_wm" value="수박" />
+            <label for="r_pr_wm"
+              ><img src="./img/img4.png" alt="수박 사진"
+            /></label>
+          </span>
+        </p>
+        <p>
+          <input type="submit" value="결과보기" />
+          <input type="reset" value="취소" />
+        </p>
+      </div>
+    </form>
+  </body>
+</html>
