@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="korean">
+  <!--201727512 / 23.07.05 / 과제1-2-->
+  <!-- 색상표
+    1 #b8e0fe : 제목
+    2 #daf1ff : 부제
+    -->
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="과제1-2.css" />
+    <script src="./과제1-2.js"></script>
+    <title>201727512김수민-1</title>
+  </head>
+  <body>
+    <form name="hwform" method="get" action="test_ex.php">
+      <header>설문지</header>
+      <section>
+        <p class="c1">
+          소프트웨어 기술에 대한 의견을 듣습니다. 많은 참여 부탁드립니다.
+        </p>
+        <p>
+          <label for="r_grade">학년</label>
+          <span>
+            <input type="radio" name="r_grade" id="r_grade_1" value="1학년" />
+            <label for="r_grade_1">1학년</label>
+            <input type="radio" name="r_grade" id="r_grade_2" value="2학년" />
+            <label for="r_grade_1">2학년</label>
+            <input type="radio" name="r_grade" id="r_grade_3" value="3학년" />
+            <label for="r_grade_1">3학년</label>
+            <input type="radio" name="r_grade" id="r_grade_4" value="4학년" />
+            <label for="r_grade_1">4학년</label>
+          </span>
+        </p>
+        <p>
+          <label for="r_gender">성별</label>
+          <span>
+            <input type="radio" name="r_gender" id="r_gender_m" value="male" />
+            <label for="r_gender_m">남</label>
+            <input
+              type="radio"
+              name="r_gender"
+              id="r_gender_f"
+              value="female"
+            />
+            <label for="r_gender_f">여</label>
+          </span>
+        </p>
+        <p>
+          <label for="sel_intr">관심 분야</label>
+          <select name="sel_intr" id="sel_intr">
+            <option value="데이터 분석">데이터 분석</option>
+            <option value="웹 서비스">웹 서비스</option>
+            <option value="AR/VR">AR/VR</option>
+            <option value="AI">AI</option>
+          </select>
+        </p>
+        <p>
+          <label for="ch_cour">진로<br />(다중 선택)</label>
+          <span>
+            <input
+              type="checkbox"
+              name="ch_cour_1"
+              id="ch_cour_1"
+              value="개발"
+            />
+            <label for="ch_cour_1">개발</label>
+            <input
+              type="checkbox"
+              name="ch_cour_2"
+              id="ch_cour_2"
+              value="기획"
+            />
+            <label for="ch_cour_1">기획</label>
+            <input
+              type="checkbox"
+              name="ch_cour_3"
+              id="ch_cour_3"
+              value="영업"
+            />
+            <label for="ch_cour_1">영업</label>
+            <input
+              type="checkbox"
+              name="ch_cour_4"
+              id="ch_cour_4"
+              value="창업"
+            />
+            <label for="ch_cour_1">창업</label>
+          </span>
+        </p>
+        <p>
+          <label for="txt_etc">남기고 싶은 말</label><br />
+          <textarea name="txt_etc" id="txt_etc"></textarea>
+        </p>
+        <p>
+          <input type="button" value="완료" onclick="show()"/>
+          <input type="reset" value="취소"/>
+        </p>
+      </section>
+      <footer>Copyright 2023 by 201727512김수민</footer>
+    </form>
+  </body>
+</html>
