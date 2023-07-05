@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="korean">
-  <!--201727512 / 23.07.04 / 5장 응용문제-->
+  <!--201727512 / 23.07.05 / 6장 응용문제-->
   <head>
     <meta charset="UTF-8" />
-    <title>5장 응용문제</title>
-    <link rel="stylesheet" href="05_ex.css" />
+    <title>6장 응용문제</title>
+    <link rel="stylesheet" href="06_ex.css" />
+    <script src="./06_ex.js"></script>
   </head>
   <body>
-    <form name="05_ex_form" method="get" action="test_ex.php">
+    <form name="exform06" method="get" action="test_ex.php">
       <div class="c1">당신이 좋아하는 과일을 선택해 보세요.</div>
       <div class="c2">
         <p>
@@ -56,7 +57,7 @@
           </span>
         </p>
         <p>
-          <input type="submit" value="결과보기" />
+          <input type="button" value="결과보기" onclick="show()"/>
           <input type="reset" value="취소" />
         </p>
       </div>

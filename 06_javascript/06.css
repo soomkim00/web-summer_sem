@@ -1,0 +1,62 @@
+form {
+  /* width: 50%; */
+}
+.c1 {
+  background-color: #b8e0fe;
+  text-align: center;
+  font-size: large;
+  box-sizing: border-box;
+  padding: 15px;
+  height: 60px;
+  width: 95%;
+  margin: 5% 2.5%;
+  border-radius: 10px;
+}
+.c2 {
+  box-sizing: border-box;
+  margin: 0% 5%;
+}
+input[type="text"] {
+  box-sizing: border-box;
+  height: 50px;
+  width: 97%;
+  padding: 5px;
+}
+/* input[id=txt_name], input[id=txt_email] {
+    height: 50px;
+    width: 95%;
+} */
+input[id="txt_year"],
+input[id="txt_day"] {
+  box-sizing: border-box;
+  height: 50px;
+  width: 31%;
+}
+select[id="sel_mon"] {
+  height: 50px;
+  width: 31%;
+  margin: 1%;
+}
+p > span {
+  border: black solid 1px;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 50px;
+  width: 97%;
+  padding: 3% 7%;
+}
+textarea {
+  height: 100px;
+  width: 97%;
+}
+input[type="button"],
+input[type="reset"] {
+  background-color: #b8e0fe;
+  box-sizing: border-box;
+  font-size: large;
+  height: 50px;
+  width: 42%;
+  margin: 3%;
+  border: none;
+  border-radius: 10px;
+}

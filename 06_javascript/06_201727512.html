@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="korean">
-  <!--201727512 / 23.07.03 / 5장 해결문제-->
+  <!--201727512 / 23.07.05 / 6장 해결문제-->
   <head>
     <meta charset="UTF-8" />
-    <title>5장 해결문제</title>
-    <link rel="stylesheet" href="05.css" />
+    <title>6장 해결문제</title>
+    <link rel="stylesheet" href="06.css" />
+    <script src="./06.js"></script>
   </head>
   <body>
-    <form name="05_form" method="get" action="test.php">
+    <form name="form06" method="get" action="test.php">
       <div class="c1">개인 신청 자료</div>
       <div class="c2">
         <p>
@@ -69,11 +70,16 @@
             <label for="txt_c">C</label>
             <input type="checkbox" name="txt_c" id="txt_c" value="c" />
             <label for="txt_python">python</label>
-            <input type="checkbox" name="txt_python" id="txt_python" value="python"/>
+            <input
+              type="checkbox"
+              name="txt_python"
+              id="txt_python"
+              value="python"
+            />
             <label for="txt_R">R</label>
-            <input type="checkbox" name="txt_R" id="txt_R" value="R"/>
+            <input type="checkbox" name="txt_R" id="txt_R" value="R" />
             <label for="txt_app">앱인벤터</label>
-            <input type="checkbox" name="txt_app" id="txt_app" value="app"/>
+            <input type="checkbox" name="txt_app" id="txt_app" value="app" />
           </span>
         </p>
         <p>
@@ -81,7 +87,7 @@
           <textarea name="txt_content" id="txt_content"></textarea>
         </p>
         <p>
-          <input type="submit" value="확인" />
+          <input type="button" value="확인" onclick="show()" />
           <input type="reset" value="취소" />
         </p>
       </div>

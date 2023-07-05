@@ -1,0 +1,8 @@
+#msg {
+    border: 2px solid green;
+    margin-top: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+}
