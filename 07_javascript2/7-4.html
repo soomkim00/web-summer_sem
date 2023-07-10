@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <!-- 201727512김수민 23.07.10 7장 javascript2연습-->
+  <head>
+    <title>7장 javascript2연습</title>
+    <style>
+      .box {
+        border: 2px solid green;
+        width: 500px;
+        height: 40px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+      }
+    </style>
+
+    <script>
+      function show() {
+        var num1 = parseInt(myform.txt1.value);
+        var num2 = parseInt(myform.txt2.value);
+        var oper = myform.sel_oper.value;
+        var result;
+        if (oper == "+") result = num1 + num2;
+        else if (oper == "-") result = num1 - num2;
+        else if (oper == "x") result = num1 * num2;
+        else if (oper == "/") result = num1 / num2;
+
+        switch (oper) {
+          case "+":
+            result = num1 + num2;
+            break;
+          case "-":
+            result = num1 - num2;
+            break;
+          case "x":
+            result = num1 * num2;
+            break;
+          case "/":
+            result = num1 / num2;
+            break;
+        }
+        myform.txt3.value = result;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>계산기</h1>
+    <form name="myform" action="">
+      <div class="box">
+        <input type="text" name="txt1" id="txt1" size="6" placeholder="숫자1" />
+        <select name="sel_oper" id="sel_oper">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="x">x</option>
+          <option value="/">/</option>
+        </select>
+        <input type="text" name="txt2" id="txt2" size="6" placeholder="숫자2" />
+        <input type="button" value="=" onclick="show()" />
+        <input type="text" name="txt3" id="txt3" size="7" />
+        <input type="reset" value="다시 계산" />
+      </div>
+    </form>
+  </body>
+</html>

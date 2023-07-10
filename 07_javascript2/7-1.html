@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <!-- 201727512 23.07.10 7장 javascript2연습-->
+    <head>
+        <title>7장 javascript2연습</title>
+
+        <script>
+            function show() {
+                // 변수 선언
+                var num1 = parseInt(myform.txt1.value);
+                var num2 = parseInt(myform.txt2.value);
+                var result = 0;
+
+                //계산
+                result = num1 + num2;
+                
+                myform.txt3.value = result;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>JAVASCRIPT 연습</h1>
+        <form name="myform" action="">
+            <input type="text" name="txt1" size="6">
+            +
+            <input type="text" name="txt2" size="6">
+            <input type="button" value="=" onclick="show()">
+            <input type="text" name="txt3" size="7">
+        </form>
+    </body>
+</html>

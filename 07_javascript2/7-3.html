@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <!-- 201727512 23.07.10 7장 javascript2연습-->
+  <head>
+    <title>7장 javascript2연습</title>
+
+    <script>
+      function show() {
+        var num = myform.txt1.value;
+        if (num % 2 == 0) {
+          alert("입력한 숫자는 짝수입니다.");
+        } else {
+          alert("입력한 숫자는 홀수입니다.");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form name="myform" action="">
+      숫자 입력 :
+      <input type="text" name="txt1" id="txt1" size="7" />
+      <input type="button" value="홀수/짝수" onclick="show()" />
+    </form>
+  </body>
+</html>

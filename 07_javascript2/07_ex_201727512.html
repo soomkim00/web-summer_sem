@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <!-- 201727512김수민 23.07.10 7장 Javascript 연산자와 조건문 응용문제-->
+  <head>
+    <title>7장 Javascript 응용문제</title>
+    <link rel="stylesheet" href="07_ex.css" />
+    <script src="./07_ex.js"></script>
+  </head>
+  <body>
+    <form name="myform">
+      <div class="box1">자바스크립트 계산기</div>
+      <div class="box2">
+        <div id="msg"></div>
+        <div class="bt">
+          <p>
+            <input type="button" value="CE" onclick="clearLast()" />
+            <input type="button" value="C" onclick="clearShow()" />
+            <input type="button" value="." onclick="show('.')"/>
+            <input type="button" value="/" onclick="show('/')"/>
+          </p>
+          <p>
+            <input type="button" value="7" onclick="show('7')" />
+            <input type="button" value="8" onclick="show('8')" />
+            <input type="button" value="9" onclick="show('9')" />
+            <input type="button" value="*" onclick="show('*')" />
+          </p>
+          <p>
+            <input type="button" value="4" onclick="show('4')" />
+            <input type="button" value="5" onclick="show('5')" />
+            <input type="button" value="6" onclick="show('6')" />
+            <input type="button" value="-" onclick="show('-')" />
+          </p>
+          <p>
+            <input type="button" value="1" onclick="show('1')" />
+            <input type="button" value="2" onclick="show('2')" />
+            <input type="button" value="3" onclick="show('3')" />
+            <input type="button" value="+" onclick="show('+')" />
+          </p>
+          <p>
+            <input type="button" value="(" onclick="show('(')" />
+            <input type="button" value="0" onclick="show('0')" />
+            <input type="button" value=")" onclick="show(')')" />
+            <input type="button" value="=" onclick="calShow()" />
+          </p>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

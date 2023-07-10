@@ -1,0 +1,33 @@
+.box1 {
+  border-radius: 10px;
+  border: 2px solid #73ad21;
+  background-color: #73ad21;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  height: 20px;
+  color: white;
+  text-align: center;
+}
+.box2 {
+  border: 2px solid #73ad21;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+form {
+  padding-bottom: 20px;
+  text-align: center;
+}
+input {
+  width: 40px;
+  height: 40px;
+}
+#msg {
+  width: 97%;
+  height: 40px;
+  border: 1px solid #f0f0f0;
+  text-align: right;
+}
