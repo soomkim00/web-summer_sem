@@ -1,0 +1,49 @@
+.box1 {
+  border-radius: 10px;
+  border: 2px solid #73ad21;
+  background-color: #73ad21;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  height: 20px;
+  color: white;
+  text-align: center;
+}
+.box2 {
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  text-align: center;
+}
+#msg {
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: red;
+  text-align: center;
+  height: 80%;
+}
+.card1 {
+  float: left;
+  height: 100px;
+  width: 50px;
+  padding-top: 5px;
+  text-align: center;
+  border: #73ad21 solid 3px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.card2 {
+  float: left;
+  height: 100px;
+  width: 50px;
+  background-color: yellow;
+  padding-top: 5px;
+  text-align: center;
+  border: #73ad21 solid 3px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.newline {
+  clear: both;
+}
