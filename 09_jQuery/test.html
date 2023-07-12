@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jquery연습</title>
+    <meta charset="UTF-8" />
+    <style>
+      .box1 {
+        border-radius: 10px;
+        border: 2px solid #73ad21;
+        background-color: #73ad21;
+        padding: 10px;
+        margin: 10px;
+        width: 400px;
+        height: 20px;
+        color: white;
+        text-align: center;
+      }
+      .box2 {
+        width: 120px;
+        height: 120px;
+        margin: 14px;
+        padding-top: 50px;
+        text-align: center;
+        border: 2px solid grey;
+        box-sizing: border-box;
+        float: left;
+      }
+      form {
+        padding: 10px;
+        margin: 10px;
+        width: 400px;
+        height: 20px;
+        text-align: center;
+        clear: both;
+      }
+    </style>
+    <!-- jquery 연동 cdn방식 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#bt1").click(function () {
+          $(".box2").show();
+        });
+        $("#bt2").click(function () {
+          $(".box2").hide();
+        });
+        $("#bt3").click(function () {
+          $(".box2").toggle();
+        });
+        //마우스
+        $(".box2").on({
+          mouseenter: function () {
+            $(this).css({ "background-color": $(this).text(), color: "white" });
+          },
+          mouseleave: function () {
+            $(this).css({ "background-color": "white", color: "black" });
+          },
+          click: function () {
+            $(this).hide();
+          },
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="box1">jQuery</div>
+    <div class="box2" id="d1">Red</div>
+    <div class="box2" id="d2">Green</div>
+    <div class="box2" id="d3">Blue</div>
+    <form name="form1">
+      <input type="button" value="모두보기" id="bt1" />
+      <input type="button" value="모두숨기기" id="bt2" />
+      <input type="button" value="전환하기" id="bt3" />
+    </form>
+  </body>
+</html>
