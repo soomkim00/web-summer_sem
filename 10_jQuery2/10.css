@@ -1,0 +1,40 @@
+.box1 {
+  border-radius: 10px;
+  border: 2px solid #73ad21;
+  background-color: #73ad21;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  height: 20px;
+  color: white;
+  text-align: center;
+}
+.box2 {
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  text-align: center;
+}
+#msg {
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #73ad21;
+  font-size: 14px;
+  color: red;
+  text-align: center;
+}
+#msgimg {
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #73ad21;
+  text-align: center;
+}
+.b1 {
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+  text-align: center;
+}
