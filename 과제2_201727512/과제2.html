@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="korean">
+<head>
+  <!-- 201727512김수민 23.07.16 과제2-->
+  <meta charset="UTF-8">
+  <title>201727512김수민</title>
+  <link rel="stylesheet" href="과제2.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="과제2.js"></script>
+</head>
+<body>
+  <form name="myform">
+    <div class="box1">커피주문하기</div>
+    <div class="box2">
+      <p>
+        <h2>[메뉴]</h2>
+        <ul>
+          <li>아메리카노 : 2000원</li>
+          <li>카푸치노 : 3000원</li>
+          <li>카페라떼 : 3500원</li>
+        </ul>
+      </p>
+      <div id="selbox">
+        <p>
+          <label for="sel_menu">커피선택 : </label>
+          <select name="sel_menu" id="sel_menu">
+            <option value="아메리카노">아메리카노</option>
+            <option value="카푸치노">카푸치노</option>
+            <option value="카페라떼">카페라떼</option>
+          </select>
+        </p>
+        <p>
+          <label>사이즈 : </label>
+        <input type="radio" name="r_size" id="r_size_t" value="Tall">
+        <label for="r_size_t">Tall</label>
+        <input type="radio" name="r_size" id="r_size_g" value="Grande">
+        <label for="r_size_g">Grande(500원)</label>
+        <input type="radio" name="r_size" id="r_size_v" value="Venti">
+        <label for="r_size_v">Venti(1000원)</label>
+        </p>
+        <p>
+          <label for="txt_q">수량 : </label>
+          <input type="button" value="-" id="reducebt">
+          <input type="text" id="txt_q" value="0">
+          <input type="button" value="+" id="addbt">
+        </p>
+        <p>
+          <label>선택사항 : </label>
+          <input type="checkbox" name="ch_sr" id="ch_sr" value="시럽">
+          <label for="ch_sr">시럽</label>
+          <input type="checkbox" name="ch_sh" id="ch_sh" value="샷추가">
+          <label for="ch_sh">샷추가</label>
+          <input type="checkbox" name="ch_ice" id="ch_ice" value="얼음">
+          <label for="ch_ice">얼음</label>
+        </p>
+      </div>
+      <p id="button1">
+        <input type="button" value="주문하기" id="orderbt">
+        <input type="reset" value="취소"/>
+      </p>
+    </div>
+  </form>
+</body>
+</html>

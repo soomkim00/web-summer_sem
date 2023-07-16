@@ -1,0 +1,30 @@
+.box1 {
+  border-radius: 10px;
+  border: 2px solid #73ad21;
+  background-color: #73ad21;
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+  height: 20px;
+  color: white;
+  text-align: center;
+  box-shadow: 3px 3px 3px black;
+}
+.box2 {
+  padding: 10px;
+  margin: 10px;
+  width: 480px;
+}
+#selbox {
+  border: #73ad21 solid 2px;
+  padding: 0px 10px;
+  width: 480px;
+  margin-top: 40px;
+}
+#txt_q {
+  width: 50px;
+  text-align: center;
+}
+#button1 {
+  text-align: center;
+}
