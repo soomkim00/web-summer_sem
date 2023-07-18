@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- 학번이름	작성일자 	// 11장 자바스크립트 배열을 이용한 jQuery응용 응용문제 -->
+<html>
+	<head>
+		<title>11장 jQuery배열 응용 카드만들기</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+		<style>
+			.box1 {
+				border-radius: 10px;
+				border: 2px solid #73AD21;
+				background-color : #73AD21;
+				padding: 10px; 
+				margin : 10px;
+				width: 400px;
+				height: 20px; 
+				color : white;
+				text-align : center;
+			}
+			.box2 {		 
+				padding: 10px; 
+				margin : 10px;
+				width: 400px; 
+				text-align : center;
+			} 
+			.box3 {
+				margin : 10px;
+				padding: 10px;
+				font-size : 14px;
+				color : red;
+				text-align : center;
+			}
+			#msgimg {
+				width : 400px; 
+				margin : 10px;
+				padding: 10px;  
+				border: 1px solid #73AD21;
+				text-align : center;
+			}
+			 
+			.card {
+				width : 60px;
+				height :60px;
+				border: 2px solid #73AD21;
+				border-radius: 5px;
+				margin: 5px;
+				padding-top:6px;
+				font-size: 25px;
+				float: left;
+			}
+			.cardClear {
+				clear : both;
+			}
+			#msg {
+				border-radius: 5px;
+				border: 2px solid #73AD21;
+				padding: 10px; 
+				margin:10px;
+				width: 400px;
+				height: 50px; 
+				font-size:30px;
+				text-align:center;
+				float : left;
+			}
+			p {
+				color : red ;
+			}
+		</style>
+
+	</head>
+	<body>
+		<form name="myform">
+			<div class="box1">
+				카드만들기 
+			</div>
+			<div class="box2">
+				카드내용 <input type="text" name="txt1" id="txt1">
+				<p>
+					(,로 구분된 카드목록이나 카드개수를 입력하세요.)
+				</p>
+				<input type="button" value="카드보기" id="bt1">
+				<input type="button" value="정렬하기" id="bt2">
+				<input type="button" value="지우기" id="bt3">
+			</div> 	
+			<div id="msg">
+			</div>
+			<div class="box3"></div>	
+			
+		</form>
+	</body>
+</html>

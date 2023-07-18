@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <!-- 학번이름 작성일자 7장 Javascript 연산자와 조건문 해결문제-->
+  <head>
+    <title>7장 Javascript 해결문제</title>
+    <link rel="stylesheet" href="07.css" />
+    <script src="07.js"></script>
+  </head>
+  <body>
+    <form name="myform">
+      <div class="box1">간단한 계산기</div>
+      <div class="box2">
+        <p class="p1">
+          <input type="text" name="txt1" placeholder="숫자1" size="6" />
+        </p>
+        <p class="p1">
+          <input type="radio" name="r_op" id="r_op1" value="+" />
+          <label for="r_op1"> + </label><br />
+          <input type="radio" name="r_op" id="r_op2" value="-" />
+          <label for="r_op1"> - </label><br />
+          <input type="radio" name="r_op" id="r_op3" value="*" />
+          <label for="r_op1"> x </label><br />
+          <input type="radio" name="r_op" id="r_op4" value="/" />
+          <label for="r_op1"> / </label><br />
+        </p>
+        <p class="p1">
+          <input type="text" name="txt2" placeholder="숫자2" size="6" />
+        </p>
+        <p class="p2">
+          <input type="button" value="=" onclick="show()" />
+        </p>
+        <p class="p2">
+          <input type="reset" value="취소" onclick="clearShow()" />
+        </p>
+        <p class="p3">
+          <input type="checkbox" name="ck_eval" id="ck_eval" />
+          <label for="ck_eval">수식포함</label>
+        </p>
+      </div>
+      <div class="box3">
+        <div id="msg"></div>
+      </div>
+    </form>
+  </body>
+</html>

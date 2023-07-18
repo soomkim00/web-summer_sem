@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <!-- 학번이름 작성일자 7장 javascript2연습-->
+    <head>
+        <title>7장 javascript2연습</title>
+        <style>
+            .box{
+                border: 2px solid green;
+                width: 500px;
+                height: 40px;
+                padding: 10px;
+                margin: 10px;
+                text-align: center;
+            }
+
+        </style>
+
+        <script>
+            function show{
+                var num1 = parseInt(myform.txt1.value);
+                var num2 = parseInt(myform.txt2.value);
+                var num3;
+                num3 = num1+num2;
+                myform.txt3.value = num3;
+                
+            }
+
+
+        </script>
+    </head>
+    <body>
+        <h1>계산기</h1>
+        <form name="myform" action="">
+            <div class="box">
+                <input type="text" name="txt1" id="txt1" size="6" placeholder="숫자1">
+                
+                <input type="text" name="txt2" id="txt2" size="6" placeholder="숫자2">
+                <input type="button" value="=" onclick="show()">
+                <input type="text" name="txt3" id="txt3" size="7" >
+                <input type="reset" value="다시 계산">
+
+            </div>
+            
+
+        </form>
+
+
+    </body>
+</html>
